@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="/static/css/mdui.min.css" />
+    <title>Hi</title>
+</head>
+
+<body class="mdui-appbar-with-toolbar mdui-appbar-with-tab mdui-drawer-body-left mdui-theme-primary-orange">
+
+    <div
+        class="mdui-appbar mdui-appbar-inset mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide mdui-shadow-2 mdui-color-white">
+        <div class="mdui-toolbar">
+            <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#left-drawer'}">
+                <i class="mdui-icon material-icons">menu</i>
+            </a>
+            <a href="javascript:;" class="mdui-typo-title">1918 HS.</a>
+            <div class="mdui-toolbar-spacer"></div>
+            <a id="account-ico" class="mdui-btn mdui-btn-icon mdui-ripple mdui-valign"></a>
+            <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple">
+                <i class="mdui-icon material-icons">more_vert</i>
+            </a>
+        </div>
+        <div class="mdui-tab mdui-m-x-2" mdui-tab>
+            <a href="#All" class="mdui-ripple">所有</a>
+            <a href="#Wil" class="mdui-ripple">待做</a>
+            <a href="#Don" class="mdui-ripple">完成</a>
+        </div>
+    </div>
+
+    <div class="mdui-drawer mdui-drawer-full-height" id="left-drawer">
+        <div class="mdui-grid-tile">
+            <a href="javascript:;"><img src="/api/bing" /></a>
+            <div class="mdui-grid-tile-actions">
+                <div class="mdui-grid-tile-title">
+                    加油~
+                </div>
+            </div>
+        </div>
+        <ul class="mdui-list">
+            <li class="mdui-list-item mdui-ripple">
+                <div class="mdui-list-item-content">Inbox</div>
+                <i class="mdui-list-item-icon mdui-icon material-icons">move_to_inbox</i>
+            </li>
+        </ul>
+    </div>
+
+    <div id="All" class="mdui-m-y-4 mdui-m-x-2">
+        <div class="mdui-center" style="max-width:850px;">
+
+        </div>
+    </div>
+
+    <div id="Wil" class="mdui-p-a-2">
+        <div class="mdui-center">
+
+        </div>
+    </div>
+
+    <div id="Don" class="mdui-p-a-2">
+        <div class="mdui-center">
+
+        </div>
+    </div>
+
+    <script src="/static/js/mdui.min.js"></script>
+    <script src="/static/js/account.js"></script>
+</body>
+
+</html>
